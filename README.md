@@ -151,6 +151,36 @@ brew install mongodb postgresql
 
 We will be exploring both of these databases more in-depth down the road.
 
+## React Native
+
+React Native is the library we will be using to build native iOS and Android applications!
+
+Run these commands:
+
+```bash
+brew install node
+brew install watchman
+npm install -g react-native-cli
+```
+
+Follow the instructions [here](https://facebook.github.io/react-native/docs/getting-started.html) for more details on iOS and Android setup
+
+**For running on iOS:**
+
+```bash
+react-native init AwesomeProject
+cd AwesomeProject
+react-native run-ios
+```
+
+**For running on Android:**
+
+```bash
+react-native init AwesomeProject
+cd AwesomeProject
+react-native run-android
+```
+
 ## Optionals
 
 ### MacDown
